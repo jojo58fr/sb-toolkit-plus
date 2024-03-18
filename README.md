@@ -22,6 +22,7 @@ pnpm install @streamerbot/client
 ## 🌸 Special Thanks
 
 Huge thanks to [nate1280](https://github.com/nate1280) for creating Streamer.bot!
+
 Huge thanks to the original contributors of streamerbot-toolkit [Whipstickgostop](https://github.com/whipstickgostop) and [Ik1497](https://github.com/ik1497)
 
 Huge thanks to all the people that help me through [patreon](https://www.patreon.com/TakuDev) to make this new implementation possible!
