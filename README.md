@@ -1,13 +1,11 @@
-# Streamer.bot Client
+# SB Toolkit plus
 
-TypeScript client for interacting with the [Streamer.bot](https://streamer.bot) WebSocket API
+SB Toolkit plus is a implementation of Streamer.bot Toolkit directly hosted on Streamer.bot application with some new features ! (Add a new way to present parameters for Streamer.bot Extensions.
 
-[![npm (scoped)](https://img.shields.io/npm/v/@streamerbot/client)](https://www.npmjs.com/package/@streamerbot/client) [![npm](https://img.shields.io/npm/dt/@streamerbot/client)](https://www.npmjs.com/package/@streamerbot/client) [![docs](https://img.shields.io/badge/-Documentation-blue)](https://streamerbot.github.io/client)
-
-[Full Documentation](https://streamerbot.github.io/client/)
+[Full Documentation on Streamer.bot Client (the base library)](https://streamerbot.github.io/client/)
 
 ## 🌈 Demo
-All functionality on [Streamer.bot Toolkit](https://toolkit.streamer.bot) is utilizing this client library 😍
+A demo of SB-Toolkit is hosted by Streamer.bot here: [Streamer.bot Toolkit](https://toolkit.streamer.bot)
 
 ## 📦 Installation
 
@@ -21,34 +19,15 @@ npm install @streamerbot/client
 pnpm install @streamerbot/client
 ```
 
-CDN / Browser
-
-```
-<script src="https://unpkg.com/@streamerbot/client/dist/streamerbot-client.js"></script>
-```
-
-## 🦄 Basic Usage
-
-```ts
-import { StreamerbotClient } from '@streamerbot/client';
-
-// Create a new client with default options
-const client = new StreamerbotClient();
-
-// Subscription will automatically be added to client with your listener function
-client.on('Twitch.ChatMessage', (data) => {
-  console.log('Twitch Chat Message Received!', data);
-});
-```
-
-Check out the [docs](https://streamerbot.github.io/client/) for more usage examples.
-
-## 🌸 Thanks
+## 🌸 Special Thanks
 
 Huge thanks to [nate1280](https://github.com/nate1280) for creating Streamer.bot!
+Huge thanks to the original contributors of streamerbot-toolkit [Whipstickgostop](https://github.com/whipstickgostop) and [Ik1497](https://github.com/ik1497)
+
+Huge thanks to all the people that help me through [patreon](https://www.patreon.com/TakuDev) to make this new implementation possible!
 
 ## 👨‍🚀 Contributors
-[Whipstickgostop](https://github.com/whipstickgostop)
+Feel free to contribute !
 
 ## 📄 License
 MIT License © 2023-Present [Whipstickgostop](https://github.com/whipstickgostop)
