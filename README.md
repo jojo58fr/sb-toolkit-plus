@@ -28,6 +28,7 @@ Huge thanks to the original contributors of streamerbot-toolkit [Whipstickgostop
 Huge thanks to all the people that help me through [patreon](https://www.patreon.com/TakuDev) to make this new implementation possible!
 
 ## 👨‍🚀 Contributors
+[TakuDev](https://github.com/takudev)
 Feel free to contribute !
 
 ## 📄 License
